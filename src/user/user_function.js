@@ -9,4 +9,4 @@ exports.createUser = async (userObj) => {
     } catch (error) {
         console.log(error);
     }
-};
+}; 

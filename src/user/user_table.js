@@ -1,7 +1,7 @@
 const {DataTypes} = require("sequelize");
 const {sequelize} = require("../db/connection");
 
-// this is the model/schema 
+// this is also known as the model/schema 
 
 const User = sequelize.define("User", {
     name: {
